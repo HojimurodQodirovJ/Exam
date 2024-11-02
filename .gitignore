@@ -1,0 +1,46 @@
+# Общие временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Убедитесь, что не включены каталоги сборки
+/build/
+/dist/
+venv
+# Файлы конфигурации среды
+.env
+.env.local
+.env.*.local
+
+# Скрытые каталоги
+/.idea/
+/.vscode/
+/node_modules/
+
+# Папки с зависимостями
+/vendor/
+
+# Для Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Для Java
+*.class
+*.jar
+*.war
+*.ear
+*.class
+
+# Для среды разработки
+*.sublime-project
+*.sublime-workspace
+
+# Для Ruby
+*.gem
+*.rbc
